@@ -28,10 +28,11 @@ public class Form {
     private String address;
     private String number;
     private LocalDateTime pickup;
-    private Long productId;
+    private Long carId;
     private LocalDateTime drop;
     private String driverLicense;
     private double totalPrice;
-    private double orderPrice;
+    private double damageProtection;
+    
 
 }
