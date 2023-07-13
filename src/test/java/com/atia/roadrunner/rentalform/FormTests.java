@@ -64,9 +64,9 @@ public class FormTests {
 
      @Test
     void testingOrderPrice(){
-        double orderPrice= 2564652.00;
-        form.setOrderPrice(orderPrice);
-        assertEquals(orderPrice, form.getOrderPrice());
+        double damageProtection= 2564652.00;
+        form.setDamageProtection(damageProtection);
+        assertEquals(damageProtection, form.getDamageProtection());
     }
 
   
