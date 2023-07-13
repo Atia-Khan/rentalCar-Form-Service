@@ -30,6 +30,7 @@ public class Form {
     private LocalDateTime pickup;
     private Long productId;
     private LocalDateTime drop;
+    private String driverLicense;
     private double totalPrice;
     private double orderPrice;
 

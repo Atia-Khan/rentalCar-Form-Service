@@ -23,9 +23,9 @@ public class FormController {
      @Autowired
     private IFormRepository formRepo;
 
-    //http://localhost:8082/forms/post
-    // http://localhost:8082/forms/get
-    // http://localhost:8082/forms/get/{id}
+    //http://localhost:8083/forms/post
+    // http://localhost:8083/forms/get
+    // http://localhost:8083/forms/get/{id}
 
     @PostMapping(value="/post")
     public ResponseEntity<?> postForms(@RequestBody Form form) {
