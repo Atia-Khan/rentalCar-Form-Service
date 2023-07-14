@@ -32,7 +32,7 @@ public class Form {
     private LocalDateTime drop;
     private String driverLicense;
     private double totalPrice;
-    private double damageProtection;
+  
     
 
 }
